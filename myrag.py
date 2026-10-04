@@ -16,7 +16,7 @@ from langchain_core.runnables import RunnablePassthrough
 # =========================================================
 # CONFIGURATION
 # =========================================================
-DOCS_FOLDER = r"" 
+DOCS_FOLDER = r"" # Paste your desired folder path here for the script to parse your document and feed it to the model.
 VECTOR_DB_DIR = "./chroma_db"
 LLM_MODEL = "llama3.2:1b"
 EMBEDDING_MODEL = "nomic-embed-text"
